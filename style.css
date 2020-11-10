@@ -1,0 +1,176 @@
+/*As the main container, styling for the <body> will affect the whole document.*/
+body{
+background-color:#ECECEC;
+font-family: 'Barlow Semi Condensed', sans-serif;
+margin: 0;
+}
+
+header{
+  background-color: #01345B;
+}
+
+header h1{
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+header nav ul li:last-child a{
+  margin-right: 0;
+}
+
+header nav ul li a{
+  padding-left: 10px;
+  text-decoration: none;
+  color: gray;
+}
+/* Formatting for each heading */
+h1{
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+h2{
+  font-size:20px;
+  font-weight: bolder;
+}
+
+h3{
+font-size: 16px;
+font-style: oblique;
+}
+
+h4{
+  font-style: oblique;
+  margin: 0px;
+}
+
+/*this code will edit the text for both paragraphs and list items to be the same */
+p, li {
+  font-size: 14px;
+}
+
+/* these are class selectors which are used on multiple or individual sections throughout the page */
+.center-text{
+  text-align: center;
+}
+
+.image-size{
+  width: 100%;
+  margin: auto;
+}
+
+.blueBG{
+  color: whitesmoke;
+  background-color:#01345B;
+  padding: 10px;
+}
+
+/*Pseudo-classes for styling and making interactive links*/
+a.bcba{
+}
+a.bcba:link{
+  color: #DDCA31;
+  text-decoration: none;
+}
+a.bcba:visited{
+  color: #a2a2a2;
+}
+a.bcba:hover{
+  color: black;
+}
+a.bcba:active{
+ font-size: 150%;
+}
+
+a.contact{
+}
+a.contact:link{
+  background-color: whitesmoke;
+  color: blue;
+  padding: 10px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20%
+}
+
+a.contact:visited{
+  color: red;
+}
+
+a.contact:hover{
+  color: black;
+}
+
+a.contact:active{
+ font-size: 150%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+/*Form formatting*/
+
+form input,
+form textarea {
+  width: 100%;
+  background-color: whitesmoke;
+  color: #01345B;
+}
+
+form button {
+  padding: 5px;
+  border-radius: 10px;
+  border: 0;
+  font-family: Tahoma;
+  font-size: 14px;
+  background-color: whitesmoke;
+  color: #01345B;
+  margin: 0 8px 10px 0;
+}
+
+/*footer formatting*/
+footer{
+    display: flex;
+    color: whitesmoke;
+    background-color:#01345B;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/*for desktop*/
+
+@media all and (min-width: 800px){
+  .group{
+    flex-direction: row;
+  }
+  section {
+    padding: 0 10%;
+  }
+  p {
+    font-size: 16px;
+  }
+}

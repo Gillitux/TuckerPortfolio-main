@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Tucker Gilligan">
+    <title>Tucker Gilligan</title>
+    <link href="http://necolas.github.io/normalize.css/" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header id="home">
+      <h1>Tucker Gilligan</h1>
+      <nav>
+        <ul>
+          <li><a href=#home>Home</a></li>
+          <li><a href=#about>About</a></li>
+          <li><a href=#services>Services</a></li>
+          <li><a href=#projects>Projects</a></li>
+          <li><a href=#contact>Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- this article contains the 3 sections of the page: intro, about me, personal interests. Each section is separated by a horizontal rule. .class selectors were used to style each section. -->
+      
+        <section id="about">
+          <h2 class="center-text">Introducing: Tucker</h2>
+          <div class="group">
+            <div class="item">
+              <img src="cliffs.jpeg" alt="Tucker at Cliffs" class="image-size">
+            </div>
+            <div class="item blueBG">
+              <h2>Hi, I'm Tucker!</h2>
+              <p>I am an aspiring web developer currently living in New Jersey.</p>
+              <p>I'm currently in the process of a career change! I've spent the past 4 years working as a <a href="https://www.bacb.com/bcba/" target="_blank" class="bcba">Behavior Analyst (BCBA)</a>. Though it can be rewarding work, web development has always been the road I regret not taking. As a professional, I consider myself a team player, an effective communicator, and persistent when given a goal. I am <em><b>enthused</b></em> to be pursuing a career as a Software Engineer, and to grow as a professional through collaboration with others!</p>
+              <div>                
+                <form action="https://formspree.io/f/myybpyob"method="post">
+                  <fieldset>
+                    <legend>I'd love to hear from you!</legend>
+                  
+                  <div>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name" placeholder="John Doe">
+                  </div>
+                  <div>
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" name="email" placeholder="Email Address">
+                  </div>
+                  <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" type="text" name="message" placeholder="Your message"></textarea>
+                  </div>
+                  <button type="submit">Submit</button>
+                  <button type="reset">Reset</button>
+                  </fieldset>
+                  <!-- add the input elements here -->
+                </form>
+
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="group blueBG">
+            <div class="item">
+              <h2>
+                About Me:
+              </h2>
+              <p>I am currently a student enrolled in Thinkful's Software Engineering Immersion Program. My passion for web design is fueled by the ability to make a difference, which is similar to what has motivated me professionally for my entire career. With the world becoming increasingly more digital, I feel web design is the perfect opportunity to make a difference. It is exciting to create a tangible product which has the potential to reach a large number of people.</p>
+              <p>Working on a team is a great way to facilitate growth personally and professionally, to learn new skills, and to create the best possible quality of work. I look forward to all that I can do as part of a team when combining my strengths with others strengths to create something great!</p>
+              <p>Outside of coding I enjoy spending time with family and friends, exploring new places to eat/drink, traveling, boating, skiing, music, guitar/singing, and playing video games!</p>
+            </div>
+          </div>
+        </section>
+        <section id="services">
+          <h2 class="center-text">Services Offered (coming soon)</h2>
+          <div class="group">
+            <div class="item blueBG center-text">
+              <p>Full Stack Web Development</p>
+            </div>
+            <div class="item blueBG center-text">
+              <p>Front End Web Development</p>
+            </div>
+            <div class="item blueBG center-text">
+              <p>Back End Web Development</p>
+            </div>
+          </div>
+        </section>
+        <section id="projects">
+          <h2 class="center-text">Projects</h2>
+          <div class="group">
+            <div class="item item-double blueBG">
+              <h3>Awesome Project 1</h3>
+              <p>This is the most amazing project of any project anyone has ever projected.</p>
+              <a href="" target="_blank" class="bcba">Awesome</a>
+            </div>
+            <div class="item blueBG">
+              <h3>Less Awesome But Still Awesome Project</h3>
+              <p>This is not the most amazing project of any project anyone has ever projected, but it is still amazing.</p>
+              <a href="" target="_blank" class="bcba">Also Awesome</a>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer id="contact"> 
+    <p>Connect with me!</p>
+      <div>
+       <a href="https://www.linkedin.com/in/tucker-gilligan/" target="_blank" class="contact">LinkedIn</a>
+       <a href="https://github.com/Gillitux" target="_blank" class="contact">GitHub</a>
+       <a href="https://www.codewars.com/users/gillitux" target="_blank" class="contact"> CodeWars</a>
+       <a href="mailto:gilligan.tucker@gmail.com" target="_blank" class="contact">Email</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
