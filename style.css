@@ -11,7 +11,8 @@ header{
 }
 
 header h1{
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 5px;
 }
 
@@ -33,7 +34,7 @@ header nav ul li:last-child a{
 header nav ul li a{
   padding-left: 10px;
   text-decoration: none;
-  color: gray;
+  color: whitesmoke;
 }
 
 /* Formatting for each heading, paragraphs, and list items */
@@ -60,6 +61,14 @@ h4{
 
 p, li {
   font-size: 14px;
+}
+
+main section div div ul div li:last-child{
+  margin-right: 0px;
+}
+
+main section div div ul div li:first-child{
+margin-left: -20px;
 }
 
 /* these are class selectors which are used on multiple or individual sections throughout the page */
@@ -90,6 +99,18 @@ p, li {
 
 .item-double {
   flex: 2;
+}
+
+.servicelist {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-left:0;
+  margin-right:60px;
+}
+
+.servicelistitems{
+  margin-left: 10px;
 }
 
 /*Pseudo-classes for styling and making interactive links*/
@@ -131,6 +152,7 @@ a.contact:active{
  font-size: 150%;
 }
 
+
 /*Form formatting*/
 
 form input,
@@ -149,6 +171,11 @@ form button {
   background-color: whitesmoke;
   color: #01345B;
   margin: 0 8px 10px 0;
+}
+
+form {
+  background-color:#01345B;
+  color: whitesmoke;
 }
 
 /*footer formatting*/
