@@ -4,8 +4,8 @@ background-color:#ECECEC;
 font-family: 'Barlow Semi Condensed', sans-serif;
 margin: 0;
 }
-/*Header and header nav*/
 
+/*Header and header nav*/
 header{
   background-color: #01345B;
 }
@@ -176,8 +176,17 @@ form button {
 form {
   background-color:#01345B;
   color: whitesmoke;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
+fieldset {
+  border-color:gray;
+}
+
+legend {
+  text-align: center;
+}
 /*footer formatting*/
 footer{
     display: flex;
